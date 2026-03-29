@@ -209,7 +209,7 @@ Alerts are configured in Grafana dashboards by setting threshold conditions such
 - Disk usage threshold exceeded
 ---
 
-#  📸 Project outputs
+##  📸 Project outputs
 
 ### 🔎 Prometheus Targets
 ![Prometheus Targets](https://github.com/Manishakhatri23/Prometheus-grafana-monitoring/blob/main/Screenshots/Prometheus_targets.png)
@@ -229,12 +229,12 @@ Alerts are configured in Grafana dashboards by setting threshold conditions such
 
 ---
 
-# 📚 Conclusion
+## 📚 Conclusion
 
 This project demonstrates how to build a real-time infrastructure monitoring system using Prometheus and Grafana on AWS EC2. It helps organizations detect issues early, improve system reliability, and reduce downtime. It provides a scalable and efficient solution for monitoring cloud infrastructure in real-time.
 
 ---
-## 👩‍💻 Author
+### 👩‍💻 Author
 
 **Manisha Khatri**
 
