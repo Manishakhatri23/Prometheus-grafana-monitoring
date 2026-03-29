@@ -61,7 +61,8 @@ Prometheus-grafana-monitoring/
 - Launch 1 EC2 instance (Monitoring Server)
 - Launch 2 EC2 instances (Target Servers)
 
----
+
+
 ### Step 2: Configure Security Groups
 #### 📌 Monitoring Server (Prometheus + Grafana)  
 
@@ -78,7 +79,6 @@ Prometheus-grafana-monitoring/
 | 22   | SSH Access |
 | 9100 | Node Exporter Metrics |
 
----
 
 ### Step 3: Install Node Exporter (on both Target Servers)
 ```bash
@@ -91,7 +91,6 @@ Prometheus-grafana-monitoring/
 
 Access: http://EC2-IP:9100
 
----
 ### Step 4: Install Prometheus (on Monitoring Server)
 ```bash
    sudo useradd --no-create-home --shell /bin/false prometheus
@@ -158,7 +157,6 @@ Access: http://EC2-IP:9100
 
 Access: http://EC2-IP:9090
 
----
 ### Step 5: Install Grafana (on Monitoring Server)
 ```bash
    sudo apt-get install -y apt-transport-https wget
@@ -234,7 +232,7 @@ Alerts are configured in Grafana dashboards by setting threshold conditions such
 This project demonstrates how to build a real-time infrastructure monitoring system using Prometheus and Grafana on AWS EC2. It helps organizations detect issues early, improve system reliability, and reduce downtime. It provides a scalable and efficient solution for monitoring cloud infrastructure in real-time.
 
 ---
-### 👩‍💻 Author
+## 👩‍💻 Author
 
 **Manisha Khatri**
 
